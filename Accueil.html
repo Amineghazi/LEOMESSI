@@ -14,20 +14,29 @@
             width: 80%;
             margin: 50px auto;
             background: rgba(0, 0, 0, 0.8);
-            padding: 30px;
+            padding: 40px;
             box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
             text-align: center;
-            border-radius: 10px;
+            border-radius: 15px;
         }
         h1 {
             color: #f1c40f;
-            font-size: 3em;
+            font-size: 3.5em;
             text-transform: uppercase;
             margin-bottom: 20px;
         }
         p {
-            font-size: 1.3em;
-            line-height: 1.6;
+            font-size: 1.4em;
+            line-height: 1.8;
+            text-align: justify;
+            margin: 20px 0;
+        }
+        .messi-img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
         }
         nav {
             background: #000;
@@ -52,63 +61,25 @@
         .btn {
             display: inline-block;
             margin-top: 20px;
-            padding: 15px 25px;
+            padding: 20px 40px;
             background: #f1c40f;
             color: #000;
             text-decoration: none;
-            font-size: 1.3em;
+            font-size: 1.4em;
             font-weight: bold;
-            border-radius: 5px;
-            transition: 0.3s;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
         }
         .btn:hover {
             background: #d4ac0d;
+            transform: translateY(-5px);
+            box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.4);
+            color: #fff;
         }
-        .messi-img {
-            width: 100%;
-            max-width: 500px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        @media only screen and (max-width: 768px) {
-            .container {
-                width: 90%; 
-                padding: 20px;
-            }
-            h1 {
-                font-size: 2.5em; 
-            }
-            p {
-                font-size: 1.1em; 
-            }
-            nav a {
-                font-size: 1.1em; 
-                padding: 12px 18px;
-            }
-            .btn {
-                font-size: 1.1em; 
-                padding: 12px 22px;
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-            h1 {
-                font-size: 2em; 
-            p {
-                font-size: 1em; 
-            }
-            .btn {
-                font-size: 1em; 
-                padding: 10px 20px;
-            }
-            nav {
-                padding: 10px; 
-            }
-            nav a {
-                font-size: 1em; 
-                padding: 10px 15px;
-            }
+        .btn:active {
+            transform: translateY(0px);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
@@ -120,8 +91,8 @@
         <a href="Contact.html">Contact</a>
     </nav>
     <div class="container">
-        <h1>Bienvenue sur le site dédié à Lionel Messi</h1>
-        <img src="https://m.media-amazon.com/images/S/pv-target-images/12eaeed9799f53e1769eef46c3a49a38ceaaa17ae8b5cfc6f35fb9700a13f703._SX1080_FMpng_.png" alt="Lionel Messi" class="messi-img">
+        <h1>Lionel Messi</h1>
+        <img src="https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2022/12/21/4096fbac-ea38-446e-8bd3-eff352d0be44_d5b636d0.jpg" alt="Lionel Messi" class="messi-img">
         <p>Bienvenue sur le site dédié à Lionel Messi, l'un des plus grands joueurs de football de tous les temps. Vous trouverez ici des informations sur sa carrière, ses exploits, sa biographie et bien plus encore.</p>
         <p>Explorez la vie et l'héritage de Messi, de ses débuts en Argentine à son ascension au sommet du football mondial. Découvrez son parcours exceptionnel, ses contributions à la fois avec le FC Barcelone et l'Argentine, et ses récents défis dans sa carrière.</p>
         <a href="Biographie.html" class="btn">En savoir plus</a>
